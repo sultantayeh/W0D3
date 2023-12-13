@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #555;
+}
+
+header nav a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav a:hover {
+    color: #017acd;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.project h3 {
+    margin: 20px 0;
+    font-weight: 1500;
+}
+
+.project p {
+    margin: 10px 0;
+    color:#017acd;
+}
